@@ -1,5 +1,5 @@
 ## Simple Web Calculator
-A simple web application developed in 2021. It simulates the calculator app on a device.
+A simple web application developed in 2021 using JavaScript. It simulates the calculator app on a device.
 
 
 <table>
