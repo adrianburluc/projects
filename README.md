@@ -11,8 +11,8 @@
 <td>Fishing Minigame</td>
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/2MwGQOr.png"></td>
-<td><img src="https://i.imgur.com/hjK4spM.png"></td>
-<td><img src="https://i.imgur.com/cH2D0Wy.png"></td>
+<td valign="top"><img src="https://i.imgur.com/2MwGQOr.png"></td>
+<td valign="top"><img src="https://i.imgur.com/hjK4spM.png"></td>
+<td valign="top"><img src="[https://i.imgur.com/cH2D0Wy.png](https://i.imgur.com/CP7iInv.png)"><br><img src="https://i.imgur.com/cH2D0Wy.png"></td>
 </tr>
 </table>
