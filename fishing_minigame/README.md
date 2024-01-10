@@ -1,10 +1,11 @@
 ## Fishing Minigame
-A minigame developed in 2021. During the countdown, the player needs to press on the moving target three times in order to win.
-
+A web minigame developed in 2021 using JavaScript, inspired by a system from a MMORPG game.
+<br>
+During the countdown, the player needs to hit the moving target three times to successfully catch the fish and win.
 
 <table>
  <tr>
-  <td><img src="https://i.imgur.com/40pwkpB.png"></td>
-  <td><img src="https://i.imgur.com/hjK4spM.png"></td>
+  <td><img src="https://i.imgur.com/CP7iInv.png"></td>
+  <td><img src="https://i.imgur.com/p7TsmDN.png"></td>
  </tr>
 </table>
