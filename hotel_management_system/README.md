@@ -1,4 +1,4 @@
-<table></table>
+<table>
   <tr>
     <td>project.zip</td>
   <td>implementation_report.pdf</td>
