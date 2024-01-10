@@ -1,6 +1,8 @@
-<table>
-  <tdhead>project.zip</tdhead>
-  <tdhead>implementation_report.pdf</tdhead>
+<table></table>
+  <tr>
+    <td>project.zip</td>
+  <td>implementation_report.pdf</td>
+  </tr>
   <tr>
     <td>
     ## project.zip
