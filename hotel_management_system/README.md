@@ -16,7 +16,7 @@
   ![alt text](https://i.imgur.com/DKc6xpk.png)
   
   </td>
-  <td style="color:red;">
+  <td style="color:red">
     This report document describes in detail how the Hotel Management System was implemented using .NET Framework. 
     <br>
     <br>
