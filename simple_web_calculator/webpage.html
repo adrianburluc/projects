@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+
+<body onload="startTime()">
+  <div class="smartphone" id="smartphone">
+    <div class="display">
+      <div class="screen" id="bgscreen">
+        <div class="top-screen" id="changecolor">
+          <div class="notch"></div>
+          <div class="clock" id="txt"></div>
+          <div class="icons-area">
+            <i class="fas fa-signal"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-battery-full"></i>
+          </div>
+        </div>
+        <div class="icon" id="icon" onclick="test()">
+          <div class="content">
+            <i class="fas fa-calculator size" id="calc-icon"></i>
+          </div>
+          <span class="text-icon" id="text-icon">Calculator</span>
+        </div>
+        <div class="app-window" id="app-window">
+          <div class="app-content-area">
+            <div class="calc-output">
+              <div class="display-text-area" id="display-text-area">
+                <div class="history" id="history">
+                  <label id="equation"></label>
+                </div>
+                <div class="input-text" id="input-text">
+                  <label id="input">0</label>
+                </div>
+              </div>
+            </div>
+            <div class="calc-buttons">
+              <div class="row">
+                <div class="button gray" onclick="clearCE()">
+                  <span class="buttont-text">C</span>
+                </div>
+                <div class="button gray" onclick="clearC()">
+                  <span class="buttont-text">⌫</span>
+                </div>
+                <div class="button gray" onclick="btnDivide()">
+                  <span class="buttont-text">÷</span>
+                </div>
+                <div class="button gray" onclick="btnMultiplication()">
+                  <span class="buttont-text">×</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="button" onclick="btn7()">
+                  <span class="buttont-text">7</span>
+                </div>
+                <div class="button" onclick="btn8()">
+                  <span class="buttont-text">8</span>
+                </div>
+                <div class="button" onclick="btn9()">
+                  <span class="buttont-text">9</span>
+                </div>
+                <div class="button gray" onclick="btnMinus()">
+                  <span class="buttont-text">-</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="button" onclick="btn4()">
+                  <span class="buttont-text">4</span>
+                </div>
+                <div class="button" onclick="btn5()">
+                  <span class="buttont-text">5</span>
+                </div>
+                <div class="button" onclick="btn6()">
+                  <span class="buttont-text">6</span>
+                </div>
+                <div class="button gray" onclick="btnPlus()">
+                  <span class="buttont-text">+</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="button" onclick="btn1()">
+                  <span class="buttont-text">1</span>
+                </div>
+                <div class="button" onclick="btn2()">
+                  <span class="buttont-text">2</span>
+                </div>
+                <div class="button" onclick="btn3()">
+                  <span class="buttont-text">3</span>
+                </div>
+                <div class="button rowspan2 red" onclick="btnEqual()">
+                  <span class="buttont-text">=</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="button colspan-2" onclick="btn0()">
+                  <span class="buttont-text">0</span>
+                </div>
+                <div class="button" onclick="btnDot()">
+                  <span class="buttont-text">.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="options">
+    <button type="button" name="button" onclick="phoneView()">Phone</button>
+    <button type="button" name="button" onclick="tabletView()">Tablet</button>
+    <button type="button" name="button" onclick="watchView()">Watch</button>
+  </div>
+  <div class="bgs">
+    <div class="background" id="first-bg" onclick="changeBg()"></div>
+    <div class="background" id="secondbg" onclick="changeBg2()"></div>
+    <div class="background" id="third-bg" onclick="changeBg3()"></div>
+  </div>
+</body>
+
+</html>

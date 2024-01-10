@@ -1,0 +1,342 @@
+html,
+  body {
+    margin: 0;
+    background-color: white;
+    font: arial;
+    color: white;
+  }
+
+  .smartphone {
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: white;
+    height: 700px;
+    width: 350px;
+    border-radius: 40px;
+    background-color: #d9d9d9;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 3px;
+    display: inline-block;
+    transition: 1s;
+  }
+
+  .display {
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+    margin: auto;
+    border: 2px solid black;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .screen {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-image: url('https://i.imgur.com/IGzYOpD.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+    transition: 0.5s;
+    position: relative;
+  }
+
+  .top-screen {
+    width: 100%;
+    height: 25px;
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+  }
+
+  .notch {
+    background-color: black;
+    height: 100%;
+    width: 160px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    z-index: 12;
+  }
+
+  .clock {
+    width: 50px;
+    height: 20px;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    left: 2px;
+    font-size: 16px;
+    z-index: 12;
+    user-select: none;
+  }
+
+  .content {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .icons-area {
+    height: 20px;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+    font-size: 12px;
+    z-index: 12;
+
+    user-select: none;
+  }
+
+  .size {
+    font-size: 40px;
+  }
+
+  .text-icon {
+    color: white;
+    font-family: arial;
+    position: absolute;
+    font-size: 12px;
+    bottom: -20px;
+    left: -2px;
+    text-shadow: 0 0 2px black;
+    user-select: none;
+  }
+
+  .position-2 {
+    position: absolute;
+    top: 10px;
+  }
+
+  #text-icon {
+    visibility: visible;
+  }
+
+  .icon {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    color: #1a1a1a;
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+    transition: ease 0.6s;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+
+  #calc-icon {
+    transition: 0.6s;
+  }
+
+  .content-2 {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .options {
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    margin-left: 50px;
+    color: black;
+  }
+
+  #changecolor {
+    transition: 0.6s;
+  }
+
+  .bgs {
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    margin-left: 50px;
+    border-radius: 20px;
+  }
+
+  .background {
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-image: url('https://i.imgur.com/IGzYOpD.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    opacity: 0.6;
+    transition: 0.5s;
+  }
+
+  .background:hover {
+    opacity: 1;
+  }
+
+  .background:last-child {
+    margin-right: 0;
+  }
+
+  #first-bg {
+    background-image: url('https://i.imgur.com/hTOyUzz.png');
+  }
+
+  #third-bg {
+    background-image: url('https://i.imgur.com/bbi116b.png');
+  }
+
+  .app-window {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 25px;
+    box-sizing: border-box;
+    background-color: #2e3034;
+    display: none;
+  }
+
+  .app-content-area {
+    width: 100%;
+    height: 100%;
+  }
+
+  .calc-buttons {
+    width: 100%;
+    height: 75%;
+  }
+
+  .row {
+    width: 100%;
+    height: 20%;
+    background-color: blue;
+    box-sizing: border-box;
+  }
+
+  .button {
+    height: 100%;
+    width: 25%;
+    background-color: #2e3034;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+    display: block;
+    position: relative;
+  }
+
+  .button:hover {
+    background-color: #484b51;
+    transition: 0.2s;
+  }
+
+  .red:hover {
+    background-color: #dd4339;
+    transition: 0.2s;
+  }
+
+  .button:first-child {
+    border-left: 0;
+  }
+
+  .colspan-2 {
+    width: 50%;
+  }
+
+  .rowspan2 {
+    position: absolute;
+    height: 29%;
+    right: 0;
+  }
+
+  .red {
+    background-color: #cd362b;
+  }
+
+  .gray {
+    background-color: #222528;
+  }
+
+  .buttont-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    font-size: 200%;
+    transition: 0.6s;
+  }
+
+  .calc-output {
+    width: 100%;
+    height: 25%;
+    background-color: #2e3034;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .history {
+    width: 100%;
+    overflow-x: scroll;
+    transition: 1s;
+  }
+
+  .history::-webkit-scrollbar {
+    display: none;
+  }
+
+  #history {
+    font-size: 150%;
+  }
+
+  .input-text {
+    width: 100%;
+    overflow-x: scroll;
+    transition: 1s;
+  }
+
+  .input-text::-webkit-scrollbar {
+    display: none;
+  }
+
+  #input-text {
+    font-size: 300%;
+  }
+
+  .display-text-area {
+    width: 100%;
+    bottom: 0;
+    padding: 0 15px 15px 15px;
+    box-sizing: border-box;
+    position: absolute;
+    overflow: auto;
+    text-align: right;
+    overflow: hidden;
+    transition: 0.5s;
+  }
