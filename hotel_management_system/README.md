@@ -4,7 +4,7 @@
   <td>implementation_report.pdf</td>
 </tr>
 <tr>
-  <td>
+  <td valign="top">
     It contains the Hotel Management System project, developed in 2021 in Visual Studio using Windows Forms. 
     <br>
     <br>
