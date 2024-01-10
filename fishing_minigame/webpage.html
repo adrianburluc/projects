@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	  <script type="text/javascript" src="script.js"></script>
+	  <link rel="stylesheet" type="text/css" href="style.css"></link>
+  </head>
+  <body>
+    <div class="game">
+      <img src="https://i.imgur.com/EDaq22B.png" id="rama">
+      <div class="board">
+        <label id="scor">0</label>
+        <div class="cerc" id="cerc">
+        </div>
+        <div class="fish" id="fishMove">
+          <img src="https://i.imgur.com/41MlWfr.png" id="fish" onclick="test()">
+        </div>
+      </div>
+    </div>
+    <progress id="timer" value="15" max="15"></progress>
+    <br>
+    <label id="hit">Hit</label>
+    <label id="coord"></label>
+  </body>
+</html>
