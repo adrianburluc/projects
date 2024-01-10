@@ -18,8 +18,6 @@
   </td>
   <td style="vertical-align: top">
     This report document describes in detail how the Hotel Management System was implemented using .NET Framework. 
-    <br>
-    <br>
     It was entirely translated from romanian using a Google function to translate documents. Due to the translation process, there are some grammatical errors present in the report
   </td>
   </tr>
