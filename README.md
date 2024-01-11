@@ -26,7 +26,7 @@
   <thead>
     <tr>
       <th>Hotel Main Page Layouts</th>
-      <th>Scoreboard Game Layout</th>
+      <th>Game Scoreboard Layout</th>
   </thead>
   <tr>
     <td valign="top"><img src="https://i.imgur.com/nbxrENn.jpg"><br><img src="https://i.imgur.com/5xHGgez.jpg"><br><img src="https://i.imgur.com/K2JLoAY.jpg"></td>
