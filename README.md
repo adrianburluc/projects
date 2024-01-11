@@ -2,17 +2,23 @@
 <table>
   <thead>
     <tr>
-      <th>Hotel Management System</th>
-      <th>Simple Web Calculator</th>
-      <th>Fishing Minigame</th>
+      <th>
+        Hotel Management System
+      </th>
+      <th>
+        Simple Web Calculator
+      </th>
+      <th>
+        Fishing Minigame
+      </th>
     </tr>
   </thead>
 <tr>
 </tr>
   <tr>
-    <td align="center">Desktop application<br>[C#, SQL, Windows Forms]</td>
-    <td align="center">Web application<br>[CSS, HTML, JavaScript]</td>
-    <td align="center">Web application<br>[CSS, HTML, JavaScript]</td>
+    <td align="center">Desktop application - <a href="https://github.com/adrianburluc/projects/tree/main/hotel_management_system">link</a><br>[C#, SQL, Windows Forms]</td>
+    <td align="center">Web application - <a href="https://github.com/adrianburluc/projects/tree/main/simple_web_calculator">link</a><br>[CSS, HTML, JavaScript]</td>
+    <td align="center">Web application - <a href="https://github.com/adrianburluc/projects/tree/main/fishing_minigame">link</a><br>[CSS, HTML, JavaScript]</td>
   </tr>
 <tr>
 <td valign="top"><img src="https://i.imgur.com/2MwGQOr.png"></td>
@@ -21,12 +27,18 @@
 </tr>
 </table>
 
+---
+
 # HTML/CSS Projects
 <table>
   <thead>
     <tr>
-      <th>Hotel Main Page Layouts</th>
-      <th>Game Scoreboard Layout</th>
+      <th>
+        Hotel Main Page Layouts - <a href="https://github.com/adrianburluc/projects/tree/main/frontend/hotel-frontend-layouts">link</a>
+      </th>
+      <th>
+        Game Scoreboard Layout - <a href="https://github.com/adrianburluc/projects/tree/main/frontend/game-scoreboard">link</a>
+      </th>
   </thead>
   <tr>
     <td valign="top"><img src="https://i.imgur.com/nbxrENn.jpg"><br><img src="https://i.imgur.com/5xHGgez.jpg"><br><img src="https://i.imgur.com/K2JLoAY.jpg"></td>
