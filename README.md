@@ -10,9 +10,9 @@
 <tr>
 </tr>
   <tr>
-    <td style="text-align: center">Desktop application<br>[C#, SQL, Windows Forms]</td>
+    <td align="center">Desktop application<br>[C#, SQL, Windows Forms]</td>
     <td align="center">Web application<br>[CSS, HTML, JavaScript]</td>
-    <td halign="center">Web application<br>[CSS, HTML, JavaScript]</td>
+    <td align="center">Web application<br>[CSS, HTML, JavaScript]</td>
   </tr>
 <tr>
 <td valign="top"><img src="https://i.imgur.com/2MwGQOr.png"></td>
