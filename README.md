@@ -24,16 +24,17 @@
 <table>
   <thead>
     <tr>
-      <th>Hotel Mainpage Layouts</th>
+      <th colspan="2">Frontend (small projects)</th>
     </tr>
+    <tr>
+      <th>Hotel Mainpage Layouts</th>
+      <th>Scoreboard Game Layout</th>
   </thead>
   <tr>
-    <td valign="top"><img src="https://i.imgur.com/nbxrENn.jpg"></td>
+    <td valign="top"><img src="https://i.imgur.com/nbxrENn.jpg"><br><img src="https://i.imgur.com/5xHGgez.jpg"><br><img src="https://i.imgur.com/K2JLoAY.jpg"></td>
+    <td valign="top"><img src="https://i.imgur.com/vWUTgTX.png"><br><img src="https://i.imgur.com/ZstBgHi.png">></td>
   </tr>
   <tr>
-    <td valign="top"><img src="https://i.imgur.com/5xHGgez.jpg"></td>
-  </tr>
-  <tr>
-    <td valign="top"><img src="https://i.imgur.com/K2JLoAY.jpg"></td>
+    <td></td>
   </tr>
 </table>
