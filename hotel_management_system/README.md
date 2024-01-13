@@ -1,4 +1,4 @@
-<b>Please use "Translate to English" function to translate the file names displayed in GitHub, from Romanian to English / French. <br><br>Thank you!</b>
+Please use <b>"Translate to English"</b> function to translate the file names displayed in GitHub, from Romanian to English or French. Thank you!
 <br><br>
 <table>
 <tr>
