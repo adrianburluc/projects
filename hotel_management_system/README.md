@@ -1,14 +1,16 @@
+<b>Please use "Translate to English" function to translate the file names displayed in GitHub, from Romanian to English / French. <br><br>Thank you!</b>
+<br><br>
 <table>
 <tr>
-    <td>project.zip</td>
+    <td>project</td>
   <td>implementation_report.pdf</td>
 </tr>
 <tr>
   <td valign="top">
-    It contains the Hotel Management System project, developed in 2021 in Visual Studio using Windows Forms. 
+    It contains the Hotel Management System project, developed in 2021 in Visual Studio using Windows Forms.
     <br>
     <br>
-    Because it is an older project, the variable names in the code were written in Romanian instead of English.
+    Because it is an older project, the file names and the variable names in the code were written in Romanian instead of English.
     <br>
     <br>
       
