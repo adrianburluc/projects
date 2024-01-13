@@ -1,0 +1,4 @@
+C:\Users\Adrian\Documents\Facultate\Licenta\Hotel\ClassRepository\bin\Debug\ClassRepository.dll
+C:\Users\Adrian\Documents\Facultate\Licenta\Hotel\ClassRepository\bin\Debug\ClassRepository.pdb
+C:\Users\Adrian\Documents\Facultate\Licenta\Hotel\ClassRepository\obj\Debug\ClassRepository.dll
+C:\Users\Adrian\Documents\Facultate\Licenta\Hotel\ClassRepository\obj\Debug\ClassRepository.pdb
