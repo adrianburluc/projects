@@ -19,7 +19,7 @@ Please use <b>"Translate to English"</b> to translate the file names displayed i
   
   </td>
   <td valign="top">
-    This report document describes in detail how the Hotel Management System was implemented using .NET Framework. 
+    This report document describes in detail how the Hotel Management System was implemented using Windows Forms & SQL. 
     <br>
     <br>
     It was entirely translated from Romanian using a Google function to translate documents. Due to the translation process, there are some grammatical errors present in the report
