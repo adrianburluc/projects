@@ -1,0 +1,12 @@
+.Wrapper {
+    width: 100%;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}

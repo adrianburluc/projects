@@ -1,0 +1,487 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.page-layout {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.zoom-hover {
+    /* overflow: hidden; */
+    transition: transform 0.4s;
+}
+
+.zoom-hover:hover {
+    transform: scale(1.1);
+}
+
+.zoom-hover:hover img {
+    /* filter: brightness(110%); */
+    filter: sepia(30%);
+}
+
+
+/* CSS FOR PRODUCTS-NAVIGATION [MAIN] */
+.products-nav-container {
+    /* background-color: black; */
+    height: 100%;
+    width: 10%;
+    position: relative
+}
+
+.products-nav-hitbox {
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 1/1;
+
+
+}
+
+.test-5 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.nav-button-2 {}
+
+/* CSS FOR PRODUCTS [MAIN] */
+.products-container {
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+}
+
+.products-header {
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 50px;
+
+}
+
+.products-menu {
+    /* background-color: yellow; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btn-nav-position {
+    /* background-color: gray; */
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 40%;
+    padding-bottom: 40%;
+}
+
+.products-alignment {
+    /* height: 100%; */
+    width: 80%;
+    /* background-color: cyan; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.products-row {
+    width: 100%;
+    /* background-color: gray; */
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product-info {
+    /* background: blue; */
+    height: 275px;
+    width: 30%;
+    margin: 1%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-info-alignment {
+    /* background-color: red; */
+    height: 100%;
+}
+
+.product-image {
+    /* background-color: cyan; */
+    height: 70%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.product-info-alignment img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.product-label {
+    font-size: 150%;
+    text-align: center;
+    /* background-color: red; */
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* CSS FOR CATEGORIES [LEFT BAR] */
+.category-label {
+    /* height: 10%; */
+    font-size: 25px;
+    text-align: center;
+}
+
+.categories-menu {
+    background-color: rgb(224, 224, 224);
+    width: 20%;
+}
+
+.categories-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.category-container {
+    /* for the image + label */
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.categories-alignment {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.category-info-alignment {
+    /* background: gray; */
+    width: 100%;
+    max-height: 30%;
+    min-height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-info-alignment img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.category-image {
+    max-height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.category-nav-container {
+    /* if height (nav_height) is increased then 
+    .categories-container height should be updated with [100-(nav_height*2)]% */
+    height: 15%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-button {
+    text-align: center;
+    height: 65%;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    font-size: 40px;
+    border: 0px;
+    background-color: transparent;
+    border: solid;
+    border-color: red;
+    color: red
+}
+
+.categories-container {
+    height: 80%;
+    /* background-color: green; */
+}
+
+.page-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    height: 20%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 1%;
+    font-size: 25px;
+    color: white
+}
+
+.test-3 {
+    height: 75%;
+    width: 45%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.order-button {
+    height: 100%;
+    width: 100%;
+    background-color: greenyellow;
+    font-size: 25px;
+    border-radius: 5%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* copy-paste from first version */
+/* to arrange the pop-up menu and controls from the footer */
+.confirm-popup-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.confirm-popup-alignment {
+    overflow: hidden;
+    /* height: 50%; */
+}
+
+.confirm-popup-header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.confirm-popup-content {
+    overflow: auto;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 5%;
+}
+
+.confirm-popup-footer {
+    text-align: center;
+}
+
+.confirm-product-container {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    align-items: center;
+    height: fit-content;
+}
+
+.confirm-product-container:hover {
+    background-color: rgba(230, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.confirm-product-container:hover::after {
+    Content: "Delete";
+    text-align: center;
+    position: absolute;
+    font-size: 24px;
+    color: red;
+}
+
+.p-b-ajust {
+    margin-bottom: 30px;
+}
+
+.confirm-product-text-container {
+    text-align: center;
+}
+
+.confirum-popup-button-container {}
+
+.confirum-popup-button-container:hover {
+    transform: scale(1.05);
+}
+
+.confirm-price {
+    font-size: 18px;
+}
+
+.confirm-image-container {
+    width: 150px;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.popup-content {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+.popup-content {
+    position: none;
+    height: 70%;
+    width: 50%;
+}
+
+.popup-layout {
+    height: 100%;
+    text-align: center;
+}
+
+.popup-close {}
+
+.popup-alignment {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.popup-buttons {
+    display: flex;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    gap: 7.5%;
+    height: 18%;
+}
+
+.popup-buttons button {
+    color: white;
+}
+
+.image-popup {
+    height: auto;
+    width: auto;
+    max-height: 40%;
+    /* max-width: 40%; */
+    display: flex;
+    align-self: center;
+}
+
+.image-popup img {}
+
+.button-popup {
+    height: 100%;
+    width: 100%;
+    background-color: greenyellow;
+    font-size: 25px;
+    border-radius: 5%;
+    border: none;
+    border-radius: 5px;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+}
+
+.button-container {
+    width: 30%;
+    height: 80px;
+
+    border: none;
+    border-radius: 5px;
+
+    margin: 10px;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+.button-container:hover {
+    transform: scale(1.05);
+}
+
+/* TEST */
+/* TEST */
+/* TEST */
+/* TEST */
+
+.categories-container-2 {
+    height: 70%;
+}
+
+.category-container-2 {}
+
+.categories-alignment-2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.category-info-alignment-2 {
+    text-align: center;
+}
+
+.category-image-2 {}
+
+.category-image-2 img {
+    max-height: 150px;
+}
+
+.category-info-2 {}
+
+.category-label-2 {
+
+    /* height: 10%; */
+    font-size: 25px;
+    text-align: center;
+}
