@@ -9,11 +9,11 @@ This web application was designed for eye gaze tracker, serving as a component o
     </thead>
     <tr>
         <td>
-            In this project it was defined the main pages of the web application (for /home, /order and /end),
+            In this project, the main pages of the web application were defined for /home, /order, and /end.
             <br>
             Main functionalities: navigate through the categories of products, select products, remove products from cart, and confirm the order.
         </td>
-        <td>This project used to store data about the products, which then are retrieved from frontend through API.</td>
+        <td>This project is used to store data about the products, which then are retrieved from frontend through API.</td>
     </tr>
 </table>
 
