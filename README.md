@@ -1,4 +1,4 @@
-# Backend Projects 
+# Projects 
 <table>
   <thead>
     <tr>
@@ -26,7 +26,7 @@
 
 ---
 
-# Frontend Projects 
+# Small web applications
 <table>
   <thead>
     <tr>
